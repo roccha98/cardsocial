@@ -2,8 +2,8 @@
 
 /* conf tag universal */
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 /* caixa principal */
 .container{
@@ -18,12 +18,23 @@
 /* caixa ao centro */
 .card{
     width: 540px;
-    background-color: rgba(9, 243, 24, .5);
+    background-color:#edeeed (9, 243, 24, .5);
     border-radius: 16px;
     /* alinhamento do itens */
     display: flex;
     flex-direction: column;
     align-items: center;
     /* sombra do box */
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px ;
+    box-shadow: #036403(100, 100, 111, 0.2) 0px 7px 29px 0px ;
+}
+
+.profile-img{
+    width: 120px;
+    border-radius: 50%;
+    border: #0fdb53 5px solid;
+
+    /* sombra do box */
+    box-shadow: #023838(0, 0, 0, 0.35) 0px 5px 15px;
+    /* direnciona o img no eixo y */
+    transform: translateY(-65px);
 }
